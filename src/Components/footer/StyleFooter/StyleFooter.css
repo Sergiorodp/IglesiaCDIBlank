@@ -1,0 +1,91 @@
+.footer{
+    background: white;
+    margin-top: 3%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: -10px 5px 10px black;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+}
+
+
+.first-list-foot{
+    /* background: red; */
+    grid-column: 2/3;
+}
+
+.second-list-foot{
+    /* background: green; */
+    grid-column: 3/4;
+}
+
+.thirt-list-foot{
+    /* background: yellow; */
+    grid-column: 4/5;
+}
+
+.list-none li{
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.List-container-footer p{
+    margin-bottom: 10px;
+}
+
+.List-container-footer a{
+    color: grey;
+}
+
+.List-container-footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container-footer{
+    display: grid;
+    padding-top: 3%;
+    grid-row: 1/2;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr 70px 70px;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+    max-width: 1100px;  
+    /* background: rosybrown; */
+}
+
+/* logo */
+
+.logo-footer-container{ 
+    /* background: brown; */
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-right: auto;
+    margin-top: 5%;
+    /* background: orangered; */
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.logo-footer-class{
+    width: 50%;
+}
+
+/* texto final */
+
+.copy{
+    /* background: yellowgreen; */
+    margin-right: auto;
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+.copy p{
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    /* background: rebeccapurple; */
+}

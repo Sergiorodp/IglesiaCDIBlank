@@ -1,0 +1,22 @@
+:root{
+    --url1 : url('./img/thumbnail_transmision.png');
+}
+
+.container-barra{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-column: 1/6;
+    background: var(--url1);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vmax;
+}
+
+
+@media screen and (max-width: 1000px){
+    .container-barra{
+        width: 100%;
+        height: 30vmax;
+    }
+}
