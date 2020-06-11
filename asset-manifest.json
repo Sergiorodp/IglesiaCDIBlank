@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/IglesiaCDIBlank/static/css/main.f5614e4b.chunk.css",
+    "main.js": "/IglesiaCDIBlank/static/js/main.91feacb3.chunk.js",
+    "main.js.map": "/IglesiaCDIBlank/static/js/main.91feacb3.chunk.js.map",
+    "runtime-main.js": "/IglesiaCDIBlank/static/js/runtime-main.f3672690.js",
+    "runtime-main.js.map": "/IglesiaCDIBlank/static/js/runtime-main.f3672690.js.map",
+    "static/js/2.a8b897f6.chunk.js": "/IglesiaCDIBlank/static/js/2.a8b897f6.chunk.js",
+    "static/js/2.a8b897f6.chunk.js.map": "/IglesiaCDIBlank/static/js/2.a8b897f6.chunk.js.map",
+    "index.html": "/IglesiaCDIBlank/index.html",
+    "precache-manifest.d50500ce1f13915fbff41b11fc56cc14.js": "/IglesiaCDIBlank/precache-manifest.d50500ce1f13915fbff41b11fc56cc14.js",
+    "service-worker.js": "/IglesiaCDIBlank/service-worker.js",
+    "static/css/main.f5614e4b.chunk.css.map": "/IglesiaCDIBlank/static/css/main.f5614e4b.chunk.css.map",
+    "static/js/2.a8b897f6.chunk.js.LICENSE.txt": "/IglesiaCDIBlank/static/js/2.a8b897f6.chunk.js.LICENSE.txt",
+    "static/media/StyleIntro.css": "/IglesiaCDIBlank/static/media/thumbnail_transmision.1091b4c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3672690.js",
+    "static/js/2.a8b897f6.chunk.js",
+    "static/css/main.f5614e4b.chunk.css",
+    "static/js/main.91feacb3.chunk.js"
+  ]
+}
