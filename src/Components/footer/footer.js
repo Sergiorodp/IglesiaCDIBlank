@@ -33,8 +33,16 @@ function FooterCDI(){
                 <div className = "logo-footer-container">
                     <img src = {Logo} alt = "web-logo" className="logo-footer-class"></img>
                 </div>
-                <div className = "copy">
-                    <p key = "copy-right">Copyright © {new Date().getFullYear()} Cruzada Cristiana Todos los derechos reservados.</p>
+                <div className = "end-container">
+                    <div className = "copy-container-footer">
+                        <p key = "copy-right" className = "copy-text-footer">Copyright © {new Date().getFullYear()} Cruzada Cristiana. All rights reserved. </p>
+                    </div>
+                    <div className = "media-container-footer">
+                        <a href = "/"><p>twiter</p></a>
+                        <a href = "/"><p>instagram</p></a>
+                        <a href = "/"><p>facebook</p></a>
+                        <a href = "/"><p>Youtube</p></a>
+                    </div>
                 </div>
             </div>
         </div>

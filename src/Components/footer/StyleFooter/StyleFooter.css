@@ -76,16 +76,44 @@
 
 /* texto final */
 
-.copy{
+/* .copy{ */
     /* background: yellowgreen; */
-    margin-right: auto;
+    /* margin-right: auto;
     grid-row: 3/4;
+    grid-column: 1/4;
+} */
+
+.end-container{
+    grid-row: 3/4;
+    grid-column: 1/6;
+    /* background: green; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.copy-container-footer{
     grid-column: 1/4;
 }
 
-.copy p{
-    margin-left: auto;
-    margin-right: auto;
+.copy-text-footer{
     color: gray;
     /* background: rebeccapurple; */
+}
+
+.media-container-footer{
+    grid-column: 4/6;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.media-container-footer a:hover p{
+    color: black;
+}
+
+.media-container-footer p{
+    color: gray;
+}
+
+@media screen and (max-width: 900px){
+    
 }
