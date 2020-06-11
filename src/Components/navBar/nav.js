@@ -2,22 +2,20 @@ import React, { createRef } from 'react'
 import './StylesNav.css';
 import Logo from './images/cdi.png'
 
+import { Link } from 'react-router-dom'
+
+
 function Nav() {
 
     const navPosition = createRef()
     var visible = false
 
-    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación"]
+    const homepageLocal = "/IglesiaCDIBlank"
 
-    const colocar = buscador.map(content =>{
-        return(
-                <li key = {content} className ="nav-list-item">
-                    <a href="/" className="nav-link">{content}</a>
-                </li>
-            )
-    })
+    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos","Servicios"]
 
-    const show = (e) =>{
+
+    const show = () =>{
         console.log(navPosition);
         visible = !visible
         if(visible){
@@ -27,12 +25,23 @@ function Nav() {
         }
     }
 
+    // Colocar Items
+    const colocar = buscador.map(content =>{
+        return(
+                <li key = {content} className ="nav-list-item">
+                    <Link to={`${homepageLocal}/${content}`} className="nav-link">{content}</Link>
+                </li>
+            )
+    })
+
     return(
     <div className = "main-nav-container">
         <header className = "nav-container">
             <div className = "image-container">
             <div className = " image-grid-container">
-                <img src = {Logo} alt = "web-logo" className="logo-class"></img>
+                <Link to = {homepageLocal}>
+                    <img src = {Logo} alt = "web-logo" className="logo-class"></img>
+                </Link>
             </div>
         </div>
             <nav className = "nav-list-container" ref = {navPosition}>
