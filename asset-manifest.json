@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/IglesiaCDIBlank/static/css/main.0a39208a.chunk.css",
-    "main.js": "/IglesiaCDIBlank/static/js/main.1bd4e000.chunk.js",
-    "main.js.map": "/IglesiaCDIBlank/static/js/main.1bd4e000.chunk.js.map",
+    "main.css": "/IglesiaCDIBlank/static/css/main.b3a2805d.chunk.css",
+    "main.js": "/IglesiaCDIBlank/static/js/main.8c824278.chunk.js",
+    "main.js.map": "/IglesiaCDIBlank/static/js/main.8c824278.chunk.js.map",
     "runtime-main.js": "/IglesiaCDIBlank/static/js/runtime-main.f3672690.js",
     "runtime-main.js.map": "/IglesiaCDIBlank/static/js/runtime-main.f3672690.js.map",
     "static/js/2.3fa4b020.chunk.js": "/IglesiaCDIBlank/static/js/2.3fa4b020.chunk.js",
     "static/js/2.3fa4b020.chunk.js.map": "/IglesiaCDIBlank/static/js/2.3fa4b020.chunk.js.map",
     "index.html": "/IglesiaCDIBlank/index.html",
-    "precache-manifest.a013e45b7ff4883069636a4f1a65fa05.js": "/IglesiaCDIBlank/precache-manifest.a013e45b7ff4883069636a4f1a65fa05.js",
+    "precache-manifest.a9827498084a112e8f4deb0932268847.js": "/IglesiaCDIBlank/precache-manifest.a9827498084a112e8f4deb0932268847.js",
     "service-worker.js": "/IglesiaCDIBlank/service-worker.js",
-    "static/css/main.0a39208a.chunk.css.map": "/IglesiaCDIBlank/static/css/main.0a39208a.chunk.css.map",
+    "static/css/main.b3a2805d.chunk.css.map": "/IglesiaCDIBlank/static/css/main.b3a2805d.chunk.css.map",
     "static/js/2.3fa4b020.chunk.js.LICENSE.txt": "/IglesiaCDIBlank/static/js/2.3fa4b020.chunk.js.LICENSE.txt",
     "static/media/StyleIntro.css": "/IglesiaCDIBlank/static/media/thumbnail_transmision.1091b4c7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f3672690.js",
     "static/js/2.3fa4b020.chunk.js",
-    "static/css/main.0a39208a.chunk.css",
-    "static/js/main.1bd4e000.chunk.js"
+    "static/css/main.b3a2805d.chunk.css",
+    "static/js/main.8c824278.chunk.js"
   ]
 }
