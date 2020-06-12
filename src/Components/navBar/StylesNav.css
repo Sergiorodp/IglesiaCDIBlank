@@ -115,6 +115,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         height: 60px;
+        width: 90%;
+        /* background: gold; */
     }
     
     .logo-class{
@@ -170,7 +172,8 @@
     .lines-nav-container{
         display: grid;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
+        margin-left: auto;
         grid-column: 3/5;
         /* background: rebeccapurple; */
     }

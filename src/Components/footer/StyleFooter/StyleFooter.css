@@ -66,8 +66,6 @@
     margin-right: auto;
     margin-top: 5%;
     /* background: orangered; */
-    /* justify-items: center;
-    align-items: center; */
 }
 
 .logo-footer-class{
@@ -115,6 +113,21 @@
     color: gray;
 }
 
+@media screen and (max-width: 970px){
+    .grid-container-footer{
+        width: 90%;
+    }
+
+    .logo-footer-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-footer-class{
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 760px){
 
 
@@ -151,6 +164,7 @@
         grid-row: 4/5;
         padding-top: 10px;
         margin-left: auto;
+        display: block;
     }
 
     .end-container{
