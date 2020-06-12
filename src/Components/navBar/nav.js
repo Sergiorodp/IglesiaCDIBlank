@@ -12,11 +12,10 @@ function Nav() {
 
     const homepageLocal = "/IglesiaCDIBlank"
 
-    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos","Servicios"]
+    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos"]
 
 
     const show = () =>{
-        console.log(navPosition);
         visible = !visible
         if(visible){
             navPosition.current.className += " nav-active"

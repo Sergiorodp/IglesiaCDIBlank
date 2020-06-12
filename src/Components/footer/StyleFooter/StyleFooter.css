@@ -101,9 +101,10 @@
 }
 
 .media-container-footer{
-    grid-column: 4/6;
+    grid-column: 4/7;
     display: flex;
     justify-content: space-evenly;
+    /* background-color: aqua; */
 }
 
 .media-container-footer a:hover p{
@@ -114,7 +115,7 @@
     color: gray;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 760px){
 
 
     .grid-container-footer{
@@ -163,7 +164,7 @@
     }
 
     .end-container{
-        padding-top: 25px; 
+        padding-top: 30px; 
         margin-left: auto;
         margin-right: auto;
         font-size: 70%;

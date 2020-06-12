@@ -89,11 +89,17 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1026px){
+@media screen and (max-width: 1120px){
+    .nav-list-container{
+        grid-column: 2/5;
+    }
+}
+
+/* @media screen and (max-width: 1026px){
     .logo-search{
         display: none;
     }
-}
+} */
 
 @media screen and (max-width: 970px){
 
