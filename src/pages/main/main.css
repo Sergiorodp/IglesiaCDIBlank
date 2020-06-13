@@ -20,3 +20,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 970px){
+
+    .welcome-grid-container{
+        width: 90%;
+    }
+
+}
