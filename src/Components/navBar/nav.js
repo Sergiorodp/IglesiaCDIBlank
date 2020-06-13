@@ -27,7 +27,7 @@ function Nav() {
     // Colocar Items
     const colocar = buscador.map(content =>{
         return(
-                <li key = {content} className ="nav-list-item">
+                <li key = {content} className ="nav-list-item" onClick = {show}>
                     <Link to={`${homepageLocal}/${content}`} className="nav-link">{content}</Link>
                 </li>
             )

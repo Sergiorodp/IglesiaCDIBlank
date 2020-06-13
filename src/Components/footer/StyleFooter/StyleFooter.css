@@ -146,6 +146,7 @@
         text-align: center;
         grid-column: 1;
         padding-top: 15px;
+        /* border-bottom: 1px solid gray; */
     }
 
     .first-list-foot{
