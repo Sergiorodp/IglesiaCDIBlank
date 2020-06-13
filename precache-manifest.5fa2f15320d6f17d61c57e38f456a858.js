@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5836b081c3c38d9bf1f3ac124b50d26",
+    "revision": "bba1d8a3067808edb1efec2a5f3d7995",
     "url": "/IglesiaCDIBlank/index.html"
   },
   {
-    "revision": "fd2077e28e01c6bf3b63",
-    "url": "/IglesiaCDIBlank/static/css/main.ff08dad4.chunk.css"
+    "revision": "74625182530ca55015d0",
+    "url": "/IglesiaCDIBlank/static/css/main.6cb4cf4d.chunk.css"
   },
   {
     "revision": "997d5872fcc462477709",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/IglesiaCDIBlank/static/js/2.3fa4b020.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd2077e28e01c6bf3b63",
-    "url": "/IglesiaCDIBlank/static/js/main.cdb7c68a.chunk.js"
+    "revision": "74625182530ca55015d0",
+    "url": "/IglesiaCDIBlank/static/js/main.f63c1f96.chunk.js"
   },
   {
     "revision": "a24c3b07a369d1974690",
