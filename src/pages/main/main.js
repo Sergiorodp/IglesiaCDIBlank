@@ -17,7 +17,6 @@ function MainPage(){
             </div>
             <Intro/>
             <div className = "container-grid">
-                {/* <div className = "icons-container"></div> */}
             </div>
         </div>
     )

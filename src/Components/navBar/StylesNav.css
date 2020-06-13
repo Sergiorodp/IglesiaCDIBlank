@@ -130,7 +130,7 @@
         left: 0px;
         /* min-height: calc(100vh - 60px - 260px); */
         height: 0px;
-        background: black;
+        /* background: black; */
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         top : 60px;
@@ -148,7 +148,7 @@
 
     .nav-list-container ul{
         grid-row: 1/2;
-        background: black;
+        background: white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -161,7 +161,7 @@
     }
 
     .nav-list-container a{
-        color: white;
+        color: black;
         font-size: 120%;
     }
 

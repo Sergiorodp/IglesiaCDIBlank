@@ -134,6 +134,8 @@
     .grid-container-footer{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,1fr);
+        width: 90%;
+        /* background: green; */
     }
 
     .grid-container-footer *{
@@ -142,15 +144,33 @@
     }
 
     /* listas */
-    .List-container-footer{
-        text-align: center;
+    .list-one-main-grid-container{
         grid-column: 1;
-        padding-top: 15px;
-        /* border-bottom: 1px solid gray; */
+        grid-row: 1;
+        
+    }
+
+    .list-two-main-grid-container{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .list-three-main-grid-container{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .List-container-footer{
+        /* text-align: center; */
+        padding-top: 15px; 
+        /* background: goldenrod; */
+        border-radius: 2px;
+        border-bottom: 1px solid gray;
     }
 
     .first-list-foot{
         grid-row: 1/2;
+        /* background: rosybrown; */
     }
 
     .second-list-foot{
