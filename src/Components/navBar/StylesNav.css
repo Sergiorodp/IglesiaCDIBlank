@@ -93,6 +93,29 @@
     .nav-list-container{
         grid-column: 2/5;
     }
+
+    .nav-list-container{
+        grid-template-rows: 1fr;
+        position: absolute;
+        left: 0px;
+        /* min-height: calc(100vh - 60px - 260px); */
+        height: 0px;
+        /* background: black; */
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        top : 60px;
+        width: 100%;
+        overflow: scroll;
+        /* tranformar*/
+        /* transform: translateX( -100%); */
+        transition: height 0.5s ease-in-out;
+        /* box-shadow: 0px 5px 20px black; */
+    }
+
+    .nav-active{
+        height: 50vh;
+    }
+
 }
 
 /* @media screen and (max-width: 1026px){

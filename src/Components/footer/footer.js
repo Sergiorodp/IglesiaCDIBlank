@@ -1,6 +1,7 @@
 import React from 'react'
 import './StyleFooter/StyleFooter.css'
 import Logo from './img/cdi.png'
+import Cruzada from './img/LOGO BEGRO.png'
 
 const homepageLocal = "/IglesiaCDIBlank"
 
@@ -40,6 +41,7 @@ function FooterCDI(){
                 </div>
                 <div className = "logo-footer-container">
                     <img src = {Logo} alt = "web-logo" className="logo-footer-class"></img>
+                    <img src = {Cruzada} alt = "Logo-cruzada" className = "logo-footer-class-cruzada"></img>
                 </div>
                 <div className = "end-container">
                     <div className = "copy-container-footer">
