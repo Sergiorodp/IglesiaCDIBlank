@@ -5,9 +5,10 @@ import Cruzada from './img/LOGO BEGRO.png'
 
 const homepageLocal = "/IglesiaCDIBlank"
 
+
 function FooterCDI(){
     return(
-        <div className = "footer">
+        <footer className = "footer">
             <div className = "grid-container-footer">
                 <div className = "list-one-main-grid-container">
                     <div className = "List-container-footer first-list-foot">
@@ -55,7 +56,7 @@ function FooterCDI(){
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }
 

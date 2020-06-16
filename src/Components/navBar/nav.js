@@ -5,15 +5,14 @@ import Logo from './images/cdi.png'
 import { Link } from 'react-router-dom'
 
 
-function Nav() {
+function Nav({referenceMain}) {
 
     const navPosition = createRef()
+    const makeFixed = createRef()
+
     var visible = false
-
     const homepageLocal = "/IglesiaCDIBlank"
-
     const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos"]
-
 
     const show = () =>{
         visible = !visible
@@ -23,26 +22,42 @@ function Nav() {
             navPosition.current.className = "nav-list-container"
         }
     }
+    const mainVisivle = () =>{
+        if(visible){
+            navPosition.current.className = " nav-list-container"
+            visible = !visible
+            referenceMain.current.className = " container"
+        }
+        window.scrollTo(0,0)
+    }
+
+    const scrollTop = () => {
+        window.scrollTo(0,0)
+    }
 
     // Colocar Items
     const colocar = buscador.map(content =>{
         return(
                 <li key = {content} className ="nav-list-item" onClick = {show}>
-                    <Link to={`${homepageLocal}/${content}`} className="nav-link">{content}</Link>
+                        <Link to={`${homepageLocal}/${content}`} className="nav-link" onClick = {scrollTop}>
+                            {content}
+                        </Link>
                 </li>
             )
     })
 
     return(
-    <div className = "main-nav-container">
+    <div className = "main-nav-container" ref = {makeFixed}>
         <header className = "nav-container">
             <div className = "image-container">
             <div className = " image-grid-container">
-                <Link to = {homepageLocal}>
-                    <img src = {Logo} alt = "web-logo" className="logo-class"></img>
+                <Link to = {homepageLocal} onClick = {mainVisivle}>
+                    
+                        <img src = {Logo} alt = "web-logo" className="logo-class"></img>
+                    
                 </Link>
             </div>
-        </div>
+            </div>
             <nav className = "nav-list-container" ref = {navPosition}>
                 <ul className = "bg-mine">
                     {colocar}
@@ -54,8 +69,8 @@ function Nav() {
             <div className = "lines-nav-container">
                 <div className = "lines-block" onClick = {show}>
                     <div className = "line-one line-div"></div>
-                    <div className = "line-two line-div"></div>
-                    <div className = "line-tree line-div"></div>
+                    <div className = "line-two line-div" ></div>
+                    <div className = "line-tree line-div" ></div>
                 </div>
             </div>
     </header>

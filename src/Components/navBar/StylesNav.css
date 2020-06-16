@@ -94,28 +94,6 @@
         grid-column: 2/5;
     }
 
-    .nav-list-container{
-        grid-template-rows: 1fr;
-        position: absolute;
-        left: 0px;
-        /* min-height: calc(100vh - 60px - 260px); */
-        height: 0px;
-        /* background: black; */
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        top : 60px;
-        width: 100%;
-        overflow: scroll;
-        /* tranformar*/
-        /* transform: translateX( -100%); */
-        transition: height 0.5s ease-in-out;
-        /* box-shadow: 0px 5px 20px black; */
-    }
-
-    .nav-active{
-        height: 50vh;
-    }
-
 }
 
 /* @media screen and (max-width: 1026px){
@@ -141,11 +119,15 @@
         width: 90%;
         /* background: gold; */
     }
-    
-    .logo-class{
-        width: 50px;
+
+    .main-nav-container{
+        position: fixed;
+        width: 100%;    
     }
 
+    .nav-link:hover{
+        border-bottom: none;
+    }
 
     .nav-list-container{
         grid-template-rows: 1fr;
@@ -156,18 +138,21 @@
         /* background: black; */
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        top : 60px;
+        top : 59px;
         width: 100%;
         overflow: scroll;
         /* tranformar*/
-        /* transform: translateX( -100%); */
         transition: height 0.5s ease-in-out;
-        /* box-shadow: 0px 5px 20px black; */
+    }
+    
+    .logo-class{
+        width: 50px;
     }
 
     .nav-active{
-        height: 90vh;
+        height: calc(100vh - 60px);
     }
+
 
     .nav-list-container ul{
         grid-row: 1/2;
@@ -180,7 +165,8 @@
     }
 
     .nav-list-container li{
-        margin-top: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .nav-list-container a{
@@ -207,10 +193,15 @@
         display: block;
     }
 
-    .lines-nav-container .line-div{
+    .line-div{
         width: 25px;
         height: 2px;
         background-color: black;
-        margin: 4px;
+        margin-bottom: 4px;
+        transition: margin 0.2s ease-in-out;
+    }
+
+    .lines-animate{
+        margin: 2px;
     }
 }
