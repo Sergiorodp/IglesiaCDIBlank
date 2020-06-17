@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 // pages
 import MainPage from './pages/main/main'
 import NosotrosPage from './pages/Nosotros/NosotrosPage'
+import ContactCard from 'pages/Contact/Contacts';
 
 // const homepage = "https://sergiorodp.github.io/IglesiaCDIBlank/"
 const homepageLocal = "/IglesiaCDIBlank"
@@ -26,7 +27,8 @@ function App() {
           
             <Route exact path = {homepageLocal} component = {MainPage} />
             <Route exact path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
-          
+            <Route exact path = {`${homepageLocal}/Contactos`} component = {ContactCard} />
+
           </div>
         <FooterCDI/>
         </div>

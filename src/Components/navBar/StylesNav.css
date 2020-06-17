@@ -55,6 +55,10 @@
     justify-content: center;
 }
 
+.btn-mine{
+    display: none;
+}
+
 .nav-link{
     padding-bottom: 18px;
 }
@@ -150,15 +154,48 @@
         transition: height 0.4s ease-in-out;
     }
 
+    .btn-mine{
+        display: block;
+    }
+
     .bg-mine-container{
         overflow: scroll;
         /* background: firebrick; */
+        display: grid;
+        grid-template-rows: 0.3fr 1.8fr;
         align-items: initial;
+        /* background: tomato; */
     }
 
-    .bottom-nav-movil{
-        background: hotpink;
+    .btn-contac-container{
+        grid-row: 1/2;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* background: teal;    */
     }
+
+    .link-btn-mine{
+        width: 90%;
+    }
+
+    .btn-mine{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: white;
+        margin-left: auto;
+        margin-right: auto;
+        height: 8vh;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
     
     .logo-class{
         width: 50px;
@@ -172,12 +209,9 @@
         overflow: hidden;
     }
 
-    .bg-mine-container{
-        justify-content: center;
-    }
 
     .bg-mine{
-        grid-row: 1/2;
+        grid-row: 2/3;
         display: flex;
         flex-direction: column;
         align-items: center;

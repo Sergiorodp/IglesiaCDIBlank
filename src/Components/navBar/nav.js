@@ -68,10 +68,17 @@ function Nav({referenceMain}) {
             </div>
             <nav className = "nav-list-container" ref = {navPosition}>
                 <div className = "bg-mine-container" ref = {navList}>
-                    <ul className = "bg-mine">
-                        {colocar}
-                    </ul>
-                </div>
+                    <div className = "btn-contac-container">
+                    <Link to = {`${homepageLocal}/Contactos`} className = "link-btn-mine" onClick = {show}>
+                        <div className = "btn-mine">
+                            <p>Contactanos</p>
+                        </div>
+                    </Link>
+                    </div>
+                        <ul className = "bg-mine">
+                            {colocar}
+                        </ul>
+                    </div>
                 {/* <div className = "bottom-nav-movil"></div> */}
             </nav>
             <div className = "logo-search">
