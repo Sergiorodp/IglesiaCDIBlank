@@ -29,6 +29,7 @@ function Nav({referenceMain}) {
             navPosition.current.className = " nav-list-container"
             visible = !visible
             referenceMain.current.className = " container"
+            document.getElementById("body-main").classList.remove("body-active")
         }
         window.scrollTo(0,0)
     }
