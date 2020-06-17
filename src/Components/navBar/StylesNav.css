@@ -153,6 +153,9 @@
         height: calc(100vh - 59px);
     }
 
+    .body-active{
+        overflow: hidden;
+    }
 
     .nav-list-container ul{
         grid-row: 1/2;

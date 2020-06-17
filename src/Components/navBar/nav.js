@@ -18,8 +18,10 @@ function Nav({referenceMain}) {
         visible = !visible
         if(visible){
             navPosition.current.className += " nav-active"
+            document.getElementById("body-main").classList.add("body-active")
         }else{
             navPosition.current.className = "nav-list-container"
+            document.getElementById("body-main").classList.remove("body-active")
         }
     }
     const mainVisivle = () =>{

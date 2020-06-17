@@ -13,6 +13,7 @@
 body {
   height: 100%;
   width: 100%;
+  /* overflow: hidden; */
 }
 
 
@@ -32,7 +33,6 @@ a{
 } */
 
 .container{
-  position: static;
   transition: position 2s ease-in-out;
 }
 
