@@ -9,6 +9,7 @@ function Nav({referenceMain}) {
 
     const navPosition = createRef()
     const makeFixed = createRef()
+    const navList = createRef()
 
     var visible = false
     const homepageLocal = "/IglesiaCDIBlank"
@@ -17,6 +18,7 @@ function Nav({referenceMain}) {
     const show = () =>{
         visible = !visible
         if(visible){
+            navList.current.scrollTo(0,0)
             navPosition.current.className += " nav-active"
             document.getElementById("body-main").classList.add("body-active")
         }else{
@@ -34,9 +36,12 @@ function Nav({referenceMain}) {
         window.scrollTo(0,0)
     }
 
-    const scrollTop = () => {
+    const scrollTop = (key) => {
         window.scrollTo(0,0)
+        console.log(key);
+        
     }
+
 
     // Colocar Items
     const colocar = buscador.map(content =>{
@@ -62,9 +67,12 @@ function Nav({referenceMain}) {
             </div>
             </div>
             <nav className = "nav-list-container" ref = {navPosition}>
-                <ul className = "bg-mine">
-                    {colocar}
-                </ul>
+                <div className = "bg-mine-container" ref = {navList}>
+                    <ul className = "bg-mine">
+                        {colocar}
+                    </ul>
+                </div>
+                {/* <div className = "bottom-nav-movil"></div> */}
             </nav>
             <div className = "logo-search">
                 <i className = "fas fa-search logo-search-item"></i>
