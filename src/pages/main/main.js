@@ -3,10 +3,15 @@ import React from 'react'
 import './main.css'
 
 // Componentes
-import Intro from '../../Components/plantilla-intro/Intro'
+import Intro from 'Components/plantilla-intro/Intro'
 
+//hooks
+import Tittle from 'hooks/tittle'
 
 function MainPage(){
+
+    Tittle({tittle : "Iglesia CDI | Iglesia Cristiana"})
+
     return(
         <div className = "body-main-page">
             {/* <h1 className = " InProgress ">En proceso...</h1> */}

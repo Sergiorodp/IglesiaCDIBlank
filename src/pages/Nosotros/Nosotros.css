@@ -1,0 +1,47 @@
+:root{
+    --color-red-cruzada : rgb(239,51,64) ;
+    --color-blue-cruzada : rgb(30,34,170);
+}
+
+.card{
+    grid-column: 1/6;
+    height: 250px;
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.history-main-container{
+    background:var(--color-red-cruzada) ;
+}
+
+.proposito-main-container{
+    background: var(--color-blue-cruzada);
+}
+
+.porposito-container{
+    background: var(--color-red-cruzada);
+}
+
+.text-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.text-container h1{
+    margin-bottom: 2%;
+}
+
+.container-grid{
+    font-size: 100%;
+}
+
+@media screen and (max-width: 970px){
+    .container-grid{
+        font-size: 80%;
+    }
+}

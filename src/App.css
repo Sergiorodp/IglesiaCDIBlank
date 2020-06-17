@@ -113,7 +113,8 @@ a{
 @media screen and (max-width: 970px){
   
   .container-grid{
-    /* background: blue; */
+    /* background: orange; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }

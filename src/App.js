@@ -23,9 +23,10 @@ function App() {
         <Nav referenceMain={container}/>
         <div className = "container-body">
           <div className = "main-container-body">
-            <div id="top"></div>
+          
             <Route exact path = {homepageLocal} component = {MainPage} />
             <Route exact path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
+          
           </div>
         <FooterCDI/>
         </div>
