@@ -16,6 +16,9 @@ body {
   /* overflow: hidden; */
 }
 
+.not-fullpage-container{
+  padding-top: 60px;
+}
 
 .App{
   background: rgba(253, 253, 253);
@@ -52,7 +55,8 @@ a{
 }
 
 .main-container-body{
-  min-height: calc(100vh - 60px - 295px);
+  /* min-height: calc(100vh - 60px - 295px); */
+  min-height: calc(100vh - 295px);
 }
 
 .InProgress{
@@ -120,7 +124,11 @@ a{
   }
 
   .container-body{
-    padding-top: 80px;
+    padding-top: 20px;
+  }
+
+  .not-fullpage-container{
+    padding-top: none;
   }
 
   .container-fixed{

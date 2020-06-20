@@ -1,12 +1,15 @@
-import React from 'react'
+import React  from 'react'
 import Tittle from 'hooks/tittle'
 import './Nosotros.css'
+
+// hooks
 
 //components
 import CardNos from 'pages/Nosotros/cards/CardNos'
 import CardHys from 'pages/Nosotros/cards/CardHistory'
 
 function NosotrosPage(){
+
     Tittle({tittle : "Nosotros | CDI"})
 
     return(

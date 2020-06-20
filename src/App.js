@@ -17,6 +17,7 @@ function App() {
 
   const container = createRef()
 
+
   return (
   <Router>
     <div className="App">
@@ -24,11 +25,12 @@ function App() {
         <Nav referenceMain={container}/>
         <div className = "container-body">
           <div className = "main-container-body">
-          
-            <Route exact path = {homepageLocal} component = {MainPage} />
-            <Route exact path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
-            <Route exact path = {`${homepageLocal}/Contactos`} component = {ContactCard} />
 
+            <Route exact path = {homepageLocal} component = {MainPage} />
+            <div className = "not-fullpage-container">
+              <Route exact path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
+              <Route exact path = {`${homepageLocal}/Contactos`} component = {ContactCard} />
+            </div>
           </div>
         <FooterCDI/>
         </div>
