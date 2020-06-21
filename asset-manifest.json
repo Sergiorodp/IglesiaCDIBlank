@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/IglesiaCDIBlank/static/css/main.bb157b8d.chunk.css",
-    "main.js": "/IglesiaCDIBlank/static/js/main.1051f6c5.chunk.js",
-    "main.js.map": "/IglesiaCDIBlank/static/js/main.1051f6c5.chunk.js.map",
+    "main.css": "/IglesiaCDIBlank/static/css/main.2e654bbb.chunk.css",
+    "main.js": "/IglesiaCDIBlank/static/js/main.c800e3de.chunk.js",
+    "main.js.map": "/IglesiaCDIBlank/static/js/main.c800e3de.chunk.js.map",
     "runtime-main.js": "/IglesiaCDIBlank/static/js/runtime-main.ee6a9fb4.js",
     "runtime-main.js.map": "/IglesiaCDIBlank/static/js/runtime-main.ee6a9fb4.js.map",
-    "static/js/2.b5688a3d.chunk.js": "/IglesiaCDIBlank/static/js/2.b5688a3d.chunk.js",
-    "static/js/2.b5688a3d.chunk.js.map": "/IglesiaCDIBlank/static/js/2.b5688a3d.chunk.js.map",
+    "static/js/2.d6898feb.chunk.js": "/IglesiaCDIBlank/static/js/2.d6898feb.chunk.js",
+    "static/js/2.d6898feb.chunk.js.map": "/IglesiaCDIBlank/static/js/2.d6898feb.chunk.js.map",
     "static/js/3.69fbbee5.chunk.js": "/IglesiaCDIBlank/static/js/3.69fbbee5.chunk.js",
     "static/js/3.69fbbee5.chunk.js.map": "/IglesiaCDIBlank/static/js/3.69fbbee5.chunk.js.map",
     "index.html": "/IglesiaCDIBlank/index.html",
-    "precache-manifest.9b714d0dc52cb96cbe519c45dfa2a51e.js": "/IglesiaCDIBlank/precache-manifest.9b714d0dc52cb96cbe519c45dfa2a51e.js",
+    "precache-manifest.c224461232131ce312223c6ade3f943f.js": "/IglesiaCDIBlank/precache-manifest.c224461232131ce312223c6ade3f943f.js",
     "service-worker.js": "/IglesiaCDIBlank/service-worker.js",
-    "static/css/main.bb157b8d.chunk.css.map": "/IglesiaCDIBlank/static/css/main.bb157b8d.chunk.css.map",
-    "static/js/2.b5688a3d.chunk.js.LICENSE.txt": "/IglesiaCDIBlank/static/js/2.b5688a3d.chunk.js.LICENSE.txt",
+    "static/css/main.2e654bbb.chunk.css.map": "/IglesiaCDIBlank/static/css/main.2e654bbb.chunk.css.map",
+    "static/js/2.d6898feb.chunk.js.LICENSE.txt": "/IglesiaCDIBlank/static/js/2.d6898feb.chunk.js.LICENSE.txt",
     "static/media/LOGO BEGRO.png": "/IglesiaCDIBlank/static/media/LOGO BEGRO.5e7ce993.png",
-    "static/media/StyleIntro.css": "/IglesiaCDIBlank/static/media/bienvenidos.61785d17.jpg",
-    "static/media/logoCDI.png": "/IglesiaCDIBlank/static/media/logoCDI.f2705569.png"
+    "static/media/StyleIntro.css": "/IglesiaCDIBlank/static/media/bienvenidos.61785d17.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee6a9fb4.js",
-    "static/js/2.b5688a3d.chunk.js",
-    "static/css/main.bb157b8d.chunk.css",
-    "static/js/main.1051f6c5.chunk.js"
+    "static/js/2.d6898feb.chunk.js",
+    "static/css/main.2e654bbb.chunk.css",
+    "static/js/main.c800e3de.chunk.js"
   ]
 }
