@@ -1,7 +1,7 @@
 import React, { createRef } from 'react'
 import './StylesNav.css';
 import Logo from './images/cdi.png'
-import LogoB from './images/logoCDI.png'
+import LogoB from './images/cdiB.png'
 
 import { Link } from 'react-router-dom'
 
