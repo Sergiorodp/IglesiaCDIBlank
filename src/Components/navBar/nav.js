@@ -52,7 +52,7 @@ function Nav({referenceMain, bgc}) {
 
     var visible = false
     const homepageLocal = "/IglesiaCDIBlank"
-    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos"]
+    const buscador = ["Nosotros","Kids","Online","Donaciones","Fundación","Cultos","Pastores","Transforma"]
 
     const show = () =>{
         visible = !visible

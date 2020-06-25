@@ -25,9 +25,7 @@ function Intro() {
         getVideos()
         .then((res) => {
             setVideo(res)
-        }).catch(
-            console.log("error cargar")
-        )
+        })
     },[])
 
     function GetVideo({url}){

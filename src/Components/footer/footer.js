@@ -21,7 +21,7 @@ function FooterCDI(){
                     </div>
                 </div>
                 <div className = "list-two-main-grid-container">
-                <div className = "List-container-footer second-list-foot">
+                    <div className = "List-container-footer second-list-foot">
                     <p>Fundación</p>
                     <ul className = "list-none">
                         <li><a href={homepageLocal} className = "white-color">Sobre</a></li>

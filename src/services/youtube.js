@@ -1,7 +1,7 @@
 
 const APIKEY = "AIzaSyAesOg12ezdYdHRlHLm0b1c9lwOR8RjzNI"
 const chanelId = "UC9WH00GC7oZ9cM5i28Xk39Q"
-const apiURL = `https://www.googleapis.com/youtube/v3/search?part=snippet,id&channelId=${chanelId}&key=${APIKEY}&order=date`
+const apiURL = `https://www.googleapis.com/youtube/v3/search?part=id&channelId=${chanelId}&key=${APIKEY}&order=date`
 
 
 const fromApiResponseToVideo = apiResponse => {
