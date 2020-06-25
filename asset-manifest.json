@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/IglesiaCDIBlank/static/css/main.2e654bbb.chunk.css",
-    "main.js": "/IglesiaCDIBlank/static/js/main.c800e3de.chunk.js",
-    "main.js.map": "/IglesiaCDIBlank/static/js/main.c800e3de.chunk.js.map",
+    "main.css": "/IglesiaCDIBlank/static/css/main.11555021.chunk.css",
+    "main.js": "/IglesiaCDIBlank/static/js/main.4381c441.chunk.js",
+    "main.js.map": "/IglesiaCDIBlank/static/js/main.4381c441.chunk.js.map",
     "runtime-main.js": "/IglesiaCDIBlank/static/js/runtime-main.ee6a9fb4.js",
     "runtime-main.js.map": "/IglesiaCDIBlank/static/js/runtime-main.ee6a9fb4.js.map",
     "static/js/2.d6898feb.chunk.js": "/IglesiaCDIBlank/static/js/2.d6898feb.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.69fbbee5.chunk.js": "/IglesiaCDIBlank/static/js/3.69fbbee5.chunk.js",
     "static/js/3.69fbbee5.chunk.js.map": "/IglesiaCDIBlank/static/js/3.69fbbee5.chunk.js.map",
     "index.html": "/IglesiaCDIBlank/index.html",
-    "precache-manifest.c224461232131ce312223c6ade3f943f.js": "/IglesiaCDIBlank/precache-manifest.c224461232131ce312223c6ade3f943f.js",
+    "precache-manifest.ad75edbd85fffd69493a6975cbcdd413.js": "/IglesiaCDIBlank/precache-manifest.ad75edbd85fffd69493a6975cbcdd413.js",
     "service-worker.js": "/IglesiaCDIBlank/service-worker.js",
-    "static/css/main.2e654bbb.chunk.css.map": "/IglesiaCDIBlank/static/css/main.2e654bbb.chunk.css.map",
+    "static/css/main.11555021.chunk.css.map": "/IglesiaCDIBlank/static/css/main.11555021.chunk.css.map",
     "static/js/2.d6898feb.chunk.js.LICENSE.txt": "/IglesiaCDIBlank/static/js/2.d6898feb.chunk.js.LICENSE.txt",
     "static/media/LOGO BEGRO.png": "/IglesiaCDIBlank/static/media/LOGO BEGRO.5e7ce993.png",
     "static/media/StyleIntro.css": "/IglesiaCDIBlank/static/media/bienvenidos.61785d17.jpg"
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee6a9fb4.js",
     "static/js/2.d6898feb.chunk.js",
-    "static/css/main.2e654bbb.chunk.css",
-    "static/js/main.c800e3de.chunk.js"
+    "static/css/main.11555021.chunk.css",
+    "static/js/main.4381c441.chunk.js"
   ]
 }
