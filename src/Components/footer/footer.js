@@ -7,6 +7,7 @@ const homepageLocal = "/IglesiaCDIBlank"
 
 
 function FooterCDI(){
+    
     return(
         <footer className = "footer">
             <div className = "grid-container-footer">
