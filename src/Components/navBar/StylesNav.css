@@ -153,8 +153,6 @@
         color: black;
     }
 
- 
-
     .bg-mine li{
         margin-left: 4%;
     }
@@ -350,14 +348,22 @@
         height: 2px;
         background-color: black;
         margin-bottom: 4px;
-        transition: margin 0.2s ease-in-out;
+        transition: padding 0.2s ease-in-out;
     }
 
-.lines-animate{
-    margin: 2px;
-}
+    .lines-animate{
+        margin: 2px;
+    }
 
-.intersection{
-    display: none;
-}
+    .moverLeft{
+        padding-right: 10px;
+    }
+
+    .moverRight{
+        padding-left: 5px;
+    }
+
+    .intersection{
+        display: none;
+    }
 }

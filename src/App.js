@@ -3,13 +3,15 @@ import './App.css';
 import Nav from './Components/navBar/nav'
 import FooterCDI from './Components/footer/footer'
 
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 // pages
 import MainPage from './pages/main/main'
 import NosotrosPage from './pages/Nosotros/NosotrosPage'
 import ContactCard from 'pages/Contact/Contacts';
 import ParallTrans from 'pages/transforma/trans'
+import NotFound from 'pages/notFound/notFound';
+
 
 // import notFound from 'pages/notFound/notFound'
 
@@ -31,11 +33,15 @@ function App() {
             <Route exact path = {homepageLocal} component = {MainPage} />
             
             <div className = "not-fullpage-container">
-              <Route exact path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
-              <Route exact path = {`${homepageLocal}/Contactos`} component = {ContactCard} />
-              <Route exact path = {`${homepageLocal}/Transforma`} component = {ParallTrans}/>
-              {/* <Route component = {notFound}/> */}
+              <Switch>
 
+                <Route path = {`${homepageLocal}/Nosotros`} component = {NosotrosPage}/>
+                <Route path = {`${homepageLocal}/Contactos`} component = {ContactCard} />
+                <Route path = {`${homepageLocal}/Transforma`} component = {ParallTrans}/>
+                <Route path = {`${homepageLocal}/Kids`} component = {pruebaComp}></Route>
+                {/* <Route component = {NotFound}/> */}
+
+              </Switch>
             </div>
           </div>
         <FooterCDI/>
@@ -47,3 +53,9 @@ function App() {
 }
 
 export default App;
+
+function pruebaComp(){
+  return(
+    <h1>niños</h1>
+  )
+}

@@ -19,22 +19,9 @@ function MainPage(){
         <div className = "body-main-page main-page-pd">
             <div className = "welcome-grid-container">
             </div>
-            <Intro/>
+                <Intro/>
             <div className = "container-grid">
-                <h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
-                <h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1><h1>HOLA</h1>
+                
             </div>
         </div>
     )

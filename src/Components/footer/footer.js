@@ -3,31 +3,63 @@ import './StyleFooter/StyleFooter.css'
 import Logo from './img/cdi.png'
 import Cruzada from './img/LOGO BEGRO.png'
 
+import { Link } from 'react-router-dom'
+import { outMain } from 'Components/navBar/nav'
+
 const homepageLocal = "/IglesiaCDIBlank"
 
+const scrollTop = () => {
+    window.scrollTo(0,0)
+    outMain()
+}
 
 function FooterCDI(){
+
+    const Iglesia = ["Comunidad","Donaciones","Kids","Jovenes"]
+    const Fundacion = ["Sobre","Donaciones","Contactos"]
+    const MasInfo = ["Servicios","Alabanza","Comunicaciones"]
+
+    const printIglesia = Iglesia.map(cont =>{
+        return(
+            <li key ={cont}>
+                <Link to={`${homepageLocal}/${cont}`} className = "white-color" onClick = {scrollTop} > {cont} </Link>
+            </li>
+        )
+    })
     
+    const printFunda = Fundacion.map(c =>{
+        return(
+            <li key = {c}>
+                <Link to={`${homepageLocal}/${c}`} className = "white-color"  onClick = {scrollTop} > {c} </Link>
+            </li>
+        )
+    })
+
+    const printMas = MasInfo.map( cont =>{
+        return(
+            <li key = {cont}>
+                <Link to={`${homepageLocal}/${cont}`} className = "white-color"  onClick = {scrollTop}>{cont}</Link>
+            </li>
+        )
+    }
+    )
+
     return(
         <footer className = "footer">
             <div className = "grid-container-footer">
                 <div className = "list-one-main-grid-container">
                     <div className = "List-container-footer first-list-foot">
                         <p>Iglesia</p>
-                        <ul className = "list-none">
-                            <li><a href={homepageLocal} className = "white-color">Comunidad</a></li>
-                            <li><a href={homepageLocal} className = "white-color">Donaciónes</a></li>
-                            <li><a href={homepageLocal} className = "white-color">Kids</a></li>
+                        <ul className = "list-none"  >
+                            {printIglesia}
                         </ul>
                     </div>
                 </div>
                 <div className = "list-two-main-grid-container">
                     <div className = "List-container-footer second-list-foot">
                     <p>Fundación</p>
-                    <ul className = "list-none">
-                        <li><a href={homepageLocal} className = "white-color">Sobre</a></li>
-                        <li><a href={homepageLocal} className = "white-color">Donaciones</a></li>
-                        <li><a href={homepageLocal} className = "white-color">Contactanos</a></li>
+                    <ul className = "list-none" >
+                        {printFunda}
                     </ul>
                 </div>
                 </div>
@@ -35,9 +67,7 @@ function FooterCDI(){
                     <div className = "List-container-footer thirt-list-foot">
                     <ul className = "list-none">
                         <p>Más info</p>
-                            <li><a href={homepageLocal} className = "white-color">Servicios</a></li>
-                            <li><a href={homepageLocal} className = "white-color">Alabanza</a></li>
-                            <li><a href={homepageLocal} className = "white-color">Comunicaciones</a></li>
+                            {printMas}
                         </ul>
                     </div>
                 </div>

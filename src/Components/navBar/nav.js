@@ -13,6 +13,8 @@ const whiteLogo = createRef()
 const navContainer = createRef()
 const LinkList = createRef()
 const logoSearch = createRef()
+const lineUp = createRef()
+const LineDown = createRef()
 
 
 export function setBg({visible = false}){
@@ -47,6 +49,7 @@ export function outMain(){
     logoSearch.current.classList.remove("logo-search-bgw")
 }
 
+
 function Nav({referenceMain, bgc}) {
 
 
@@ -61,9 +64,13 @@ function Nav({referenceMain, bgc}) {
             outMain()
             navPosition.current.className += " nav-active"
             document.getElementById("body-main").classList.add("body-active")
+            lineUp.current.classList.add("moverLeft")
+            LineDown.current.classList.add("moverRight")
         }else{
             navPosition.current.className = "nav-list-container"
             document.getElementById("body-main").classList.remove("body-active")
+            lineUp.current.classList.remove("moverLeft")
+            LineDown.current.classList.remove("moverRight")
         }
     }
     const mainVisivle = () =>{
@@ -79,6 +86,7 @@ function Nav({referenceMain, bgc}) {
     const scrollTop = () => {
         window.scrollTo(0,0)
     }
+
 
     // Colocar Items
     const colocar = buscador.map(content =>{
@@ -126,9 +134,9 @@ function Nav({referenceMain, bgc}) {
             </div>
             <div className = "lines-nav-container">
                 <div className = "lines-block" onClick = {show}>
-                    <div className = "line-one line-div"></div>
+                    <div className = "line-one line-div " ref = {lineUp} ></div>
                     <div className = "line-two line-div" ></div>
-                    <div className = "line-tree line-div" ></div>
+                    <div className = "line-tree line-div " ref={LineDown} ></div>
                 </div>
             </div>
     </header>
