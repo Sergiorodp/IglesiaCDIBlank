@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/IglesiaCDIBlank/precache-manifest.ad75edbd85fffd69493a6975cbcdd413.js"
+  "/IglesiaCDIBlank/precache-manifest.b59055299223e9447f36ccc87952472b.js"
 );
 
 self.addEventListener('message', (event) => {
